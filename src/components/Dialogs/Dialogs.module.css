@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+.dialogs {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.dialogs .dialogsItems{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    text-align: left;
+    font-family: 'Arimo', sans-serif;
+}
+
+.dialogsBlock a{
+    color:  #585655;
+    text-decoration: none;
+}
+
+.dialogsBlock img {
+    width: 60px;
+    border-radius: 100px;
+    vertical-align: middle;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+}
+
+.active {
+    background: rgb(245,245,245) linear-gradient(#bdfaff, #f4f4f4);
+    border-radius: 15px;
+}
+
+.messages {
+    padding-left: 10px;
+    padding-bottom: 5px;
+    background: rgb(245,245,245) linear-gradient(#bdfaff, #f4f4f4);
+    border-radius: 15px;
+    padding-top: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.messages .message {
+    color:  #585655;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Arimo', sans-serif;
+    }
+
+.messages .message .right{
+    text-align: right;
+    background: #f4f4f4 ;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.messages .message .left{
+    background: #b9f4ff;
+    border-radius: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.messages .addMessage {
+    padding-left: 50px;
+    padding-top: 110px;
+    text-align: left;
+}
+

@@ -1,0 +1,5 @@
+.profile {
+    display: grid;
+    grid-template-columns: minmax(400px, 500px) auto;
+    background: rgb(245,245,245) linear-gradient(#dffbff, #ffffff);
+}

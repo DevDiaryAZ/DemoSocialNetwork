@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+.loginform {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.loginform div{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-family: 'Arimo', sans-serif;
+}
+.loginform {
+    margin-top:10px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.rememberMe input, label{
+    font-family: 'Arimo', sans-serif;
+    color: #585655;
+    vertical-align: middle;
+    margin-top: 1px;
+    font-size: 12px;
+}
+
+.rememberMe input:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #b3d7ff;
+}
+
+.rememberMe input:not(:disabled):active+label::before {
+    background-color: #b3d7ff;
+    border-color: #b3d7ff;
+}
+
+.rememberMe input:focus+label::before {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.rememberMe input:focus:not(:checked)+label::before {
+    border-color: #80bdff;
+}
+
+
+.button {
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #454545;
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 1.2em;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background: rgb(245,245,245) linear-gradient(#f4f4f4, #dcfaff);
+    transition: all .218s ease 0s;
+    margin-top: 10px;
+}
+.button:hover {
+    color: rgb(24,24,24);
+    border: 1px solid rgb(198,198,198);
+    background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+.button:active {
+    color: #a5a5a5;
+    border: 1px solid rgb(204,204,204);
+    background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+    box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}

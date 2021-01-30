@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+.formControl input{
+    display:block;
+    width: 70%;
+    max-width:250px;
+    padding:15px;
+    border-radius:10px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+    font-family: 'Arimo', sans-serif;
+    font-size: 12px;
+}
+
+.formControl textarea{
+    width: 70%;
+    max-width:250px;
+    resize: vertical;
+    padding:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    height:50px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 12px;
+}
+/*.formControl textarea:hover {
+    border: 1px solid #aaa;
+}*/
+
+.formControl.error input,
+.formControl.error textarea
+{
+    border: solid red 2px;
+}
+.formControl.error span
+{
+    color: red;
+}

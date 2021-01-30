@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+.content {
+  margin: 20px;
+  grid-area: c;
+  background-color: rgb(97, 217, 233);
+}
+
+.item {
+  margin: 20px 20px 0px 0px;
+  color: rgb(43, 43, 43);
+  font-family: 'Arimo', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.item img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+}

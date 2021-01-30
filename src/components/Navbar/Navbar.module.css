@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+.nav {
+    grid-area: n;
+    background: rgb(245,245,245) linear-gradient(#eceae9, #ffffff);
+
+}
+
+.item a {
+    color: #a5a5a5;
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.item a.activeLink {
+    color: #050505;
+    font-weight: bold;
+}
+
+
+.item {
+    color: #050505;
+    font-family: 'Arimo', sans-serif;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+.postsBlocks {
+    padding: 20px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.postsBlocks h3{
+    font-family: 'Arimo', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.posts {
+    margin-top: 10px;
+}
